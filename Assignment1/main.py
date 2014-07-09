@@ -18,3 +18,11 @@ school = raw_input('Enter the number of years you have been in school for web: '
 #create an array
 positions = ['Junior Software Engineer', 'Senior Software Engineer', 'CEO']
 
+#create a dictionary
+phones = {
+    "junior": 'Blackberry',
+    "senior": 'Windows HTC 8x',
+    "ceo": 'iPhone 5s'
+}
+
+
