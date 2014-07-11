@@ -20,7 +20,7 @@ def calc_area(w, h):
 
 calc_area(width,height)
 
-
+#create count_down function
 def count_down(number):
     for i in range(number, 0, -1):
         second = number - 1
