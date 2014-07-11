@@ -16,6 +16,8 @@ age = raw_input('Enter your age: ')
 web_experience = raw_input('Enter how many years have you been working with web development: ')
 school = raw_input('Enter the number of years you have been in college: ')
 
+retire = age/(web_experience + school)
+
 #create an array
 positions = ['Junior Software Engineer', 'Senior Software Engineer', 'CEO']
 design_positions = ['Junior Designers', 'Senior Designer', 'CEO']
@@ -30,12 +32,18 @@ phones = {
 #create functions
 
 
-def experience(age, school):
-    life = age/school
-    if life >= 3:
+def life_calc(age2, school2):
+    life = age2/school2
+    return life
+
+
+def experience(life2):
+    if life2 >= 3:
         your_life = 'I am sorry your life sucks'
-    elif life < 3:
+        return your_life
+    elif life2 < 3:
         your_life = 'Looks like you took care of business!'
+        return your_life
 
 
 for position in positions:
