@@ -7,7 +7,7 @@ Basic Python Quiz
 width = input("Enter a Width: ")
 height = input("Enter a height: ")
 
-
+#Create Calc_Area function
 def calc_area(w, h):
     area = w * h
 
