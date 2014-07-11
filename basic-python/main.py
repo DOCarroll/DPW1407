@@ -4,6 +4,7 @@ Daniel O'Carroll
 Basic Python Quiz
 '''
 
+#create variables
 width = input("Enter a Width: ")
 height = input("Enter a height: ")
 
