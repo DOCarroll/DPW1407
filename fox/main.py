@@ -20,6 +20,46 @@ class MainHandler(webapp2.RequestHandler):
     def get(self):
         self.response.write('Hello world!')
 
+#create a class that will populate the page with html
+class Page(object):
+    def __init__(self):
+        self.animal = AbstractAnimal()
+        self.open = '''
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>What Does the Fox Say?</title>
+    </head>
+<body>'''
+
+        self.nav = '''
+<ul>
+    <a href="?animal=fox"><li class='leftLi'>Red Fox</li></a>
+    <a href="?animal=wolf"><li>Arctic Wolf</li></a>
+    <a href="?animal=bear"><li>Polar Bear</li></a>
+</ul>'''
+
+        self.content = '''
+        <div class="content">
+<h1>{self.animal.name}</h1>
+<img src="{self.animal.image}"/>
+<p>{self.animal.phylum}</p>
+<p>{self.animal.animal_class}</p>
+<p>{self.animal.order}</p>
+<p>{self.animal.family}</p>
+<p>{self.animal.genus}</p>
+<p>{self.animal.life}</p>
+<p>{self.animal.habitat}</p>
+<p>{self.animal.location}</p>
+<p>{self.animal.sound}</p>
+</div>
+        '''
+
+        self.close = '''
+</body>
+</html>'''
+        self.all = self.open + self.nav + self.content + self.close
+
 
 #create the Abstract Animal Class
 class AbstractAnimal(object):
