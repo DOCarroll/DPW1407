@@ -59,4 +59,9 @@ class Fox(AbstractAnimal):
         self.life = 'Life Span: 5 Years'
         self.habitat = 'Habitat: Forests, Deserts, Mountains, and Grasslands'
         self.location = 'Location: All over the world'
-        
+        self.create_sound()
+
+    #Set the Sound of the animal with the method
+    def create_sound(self):
+        self.sound = 'Sound: "Ring ding ding ding'
+        return self.sound
