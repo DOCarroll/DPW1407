@@ -1,0 +1,61 @@
+body {
+    background-image:url('images/background.png');
+    }
+ul {
+width:50%;
+margin: 0 auto;
+background-color:rgba(255,255,255,.5)
+height:50px;
+}
+
+ul li {
+display:inline;
+font-size:50px;
+border-right:solid 2px limegreen;
+line-height:50px;
+padding:1%;
+}
+
+a:link {
+text-decoration:none;
+color:grey;
+}
+
+li:hover {
+color:brown;
+}
+
+a:visited {
+color:grey;
+}
+
+.leftLi {
+border-left:solid 2px limegreen;
+}
+
+.content {
+width:45.8%;
+margin: 0 auto;
+padding:1%;
+margin-right:25.5%;
+border: solid 2px limegreen;
+margin-top:2%;
+border-radius:5px;
+padding-top:0;
+background-color:rgba(0,128,0, .3);
+}
+
+p {
+display:block;
+}
+
+h1 {
+color:brown;
+}
+
+img {
+width:50%;
+float:right;
+border:solid 2px brown;
+border-radius:5px;
+}
