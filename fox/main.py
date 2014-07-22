@@ -105,3 +105,7 @@ class Bear(AbstractAnimal):
         self.location = 'Location: The entire Arctic Region'
         self.sound = ''
 
+        def create_sound():
+            self.sound = 'Sound: "GRARAWWWRRRRRR!"'
+            return self.sound
+        create_sound()
