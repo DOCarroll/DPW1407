@@ -25,11 +25,13 @@ class Page(object):
         <html>
         <head>
         <title>Pizza Form</title>
+        <link rel='stylesheet' type="text/css" href='css/main.css' />
         </head>
         <body>
         '''
 
         self.content = '''
+        <div class="container">
         <h1>Pizza Form</h1>
         <form>
         <h3>Contact Info</h3>
@@ -49,6 +51,7 @@ class Page(object):
         <input type="submit">
 
         </form>
+        </div>
         '''
 
         self.close = '''

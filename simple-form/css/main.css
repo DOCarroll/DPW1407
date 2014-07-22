@@ -1,0 +1,43 @@
+body {
+background-color:lightyellow;
+}
+
+.container {
+background-color:orange;
+border: solid 2px black;
+border-radius: 5px;
+padding:1%;
+padding-top:0;
+width:400px;
+margin:0 auto;
+}
+
+.container h1 {
+margin-left:120px;
+color:yellow;
+}
+
+.container h3 {
+color:brown;
+}
+
+
+input[type="submit"] {
+background-color:brown;
+border-radius:5px;
+width:100px;
+border-color:black;
+float:right;
+margin-top:-20px;
+}
+
+select {
+background-color:brown;
+border-color:black;
+width: 100px;
+border-radius:5px;
+}
+
+select option {
+background-color:brown;
+}
