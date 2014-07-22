@@ -87,3 +87,21 @@ class Wolf(AbstractAnimal):
             self.sound = 'Sound: "AAWWWOOOOOOOOOO!!!"'
             return self.sound
         create_sound()
+
+
+#Create Third Animal
+class Bear(AbstractAnimal):
+    def __init__(self):
+        AbstractAnimal.__init__(self)
+        self.name = 'Polar Bear'
+        self.phylum = 'Phylum: Chordata'
+        self.animal_class = 'Class: Mammalia'
+        self.order = 'Order: Carnivora'
+        self.family = 'Family: Ursidae'
+        self.genus = 'Genus: Ursus'
+        self.image = 'css/images/polarbear.jpg'
+        self.life = 'Life Span: 15 to 18 Years'
+        self.habitat = 'Habitat: Icey snowy places'
+        self.location = 'Location: The entire Arctic Region'
+        self.sound = ''
+
