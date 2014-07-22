@@ -23,6 +23,8 @@ class MainHandler(webapp2.RequestHandler):
         bear = Bear()
         wolf = Wolf()
         fox = Fox()
+        #Create Array to Store Animals
+        animals = [bear, wolf, fox]
         self.response.write('Hello world!')
 
 #create a class that will populate the page with html
