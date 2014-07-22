@@ -28,7 +28,7 @@
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fox/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="45" selection-start="964" selection-end="964" vertical-scroll-proportion="0.4880546" vertical-offset="164" max-vertical-offset="2355">
+            <state line="62" column="26" selection-start="1724" selection-end="1724" vertical-scroll-proportion="0.6911263" vertical-offset="525" max-vertical-offset="2430">
               <folding />
             </state>
           </provider>
@@ -70,8 +70,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="35" />
-    <option name="y" value="83" />
+    <option name="x" value="158" />
+    <option name="y" value="22" />
     <option name="width" value="1400" />
     <option name="height" value="683" />
   </component>
@@ -386,7 +386,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="35" y="83" width="1400" height="683" extended-state="0" />
+    <frame x="158" y="22" width="1400" height="683" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -500,7 +500,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fox/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="45" selection-start="964" selection-end="964" vertical-scroll-proportion="0.4880546" vertical-offset="164" max-vertical-offset="2355">
+        <state line="62" column="26" selection-start="1724" selection-end="1724" vertical-scroll-proportion="0.6911263" vertical-offset="525" max-vertical-offset="2430">
           <folding />
         </state>
       </provider>

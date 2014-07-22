@@ -60,6 +60,11 @@ class Page(object):
 </html>'''
         self.all = self.open + self.nav + self.content + self.close
 
+    #create a print method
+    def update(self):
+            self.all = self.all.format(**locals())
+            return self.all
+
 
 #create the Abstract Animal Class
 class AbstractAnimal(object):
