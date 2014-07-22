@@ -20,10 +20,6 @@ class MainHandler(webapp2.RequestHandler):
     def get(self):
         self.response.write('Hello world!')
 
-app = webapp2.WSGIApplication([
-    ('/', MainHandler)
-], debug=True)
-
 
 #create the Abstract Animal Class
 class AbstractAnimal(object):
@@ -109,3 +105,7 @@ class Bear(AbstractAnimal):
             self.sound = 'Sound: "GRARAWWWRRRRRR!"'
             return self.sound
         create_sound()
+
+app = webapp2.WSGIApplication([
+    ('/', MainHandler)
+], debug=True)
