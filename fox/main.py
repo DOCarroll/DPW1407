@@ -65,3 +65,19 @@ class Fox(AbstractAnimal):
     def create_sound(self):
         self.sound = 'Sound: "Ring ding ding ding'
         return self.sound
+
+#Create Second Animal
+class Wolf(AbstractAnimal):
+    def __init__(self):
+        AbstractAnimal.__init__(self)
+        self.name = 'Arctic Wolf'
+        self.phylum = 'Phylum: Chordata'
+        self.animal_class = 'Class: Mammalia'
+        self.order = 'Order: Carnivora'
+        self.family = 'Family: Canidae'
+        self.genus = 'Genus: Canis'
+        self.image = 'css/images/arcticwolf.jpg'
+        self.life = 'Life Span: 7 to 10 years'
+        self.habitat = 'Habitat: Tundras, snowy places '
+        self.location = 'Location: Arctic, most of Northern Hemisphere'
+
