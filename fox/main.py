@@ -66,6 +66,7 @@ class Fox(AbstractAnimal):
         self.sound = 'Sound: "Ring ding ding ding'
         return self.sound
 
+
 #Create Second Animal
 class Wolf(AbstractAnimal):
     def __init__(self):
@@ -81,3 +82,8 @@ class Wolf(AbstractAnimal):
         self.habitat = 'Habitat: Tundras, snowy places '
         self.location = 'Location: Arctic, most of Northern Hemisphere'
 
+        #set the second sound
+        def create_sound():
+            self.sound = 'Sound: "AAWWWOOOOOOOOOO!!!"'
+            return self.sound
+        create_sound()
