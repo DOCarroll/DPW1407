@@ -43,3 +43,20 @@ class AbstractAnimal(object):
             self.sound = ''
             return self.sound
         create_sound()
+
+
+#Create First Animal
+class Fox(AbstractAnimal):
+    def __init__(self):
+        AbstractAnimal.__init__(self)
+        self.name = 'Red Fox'
+        self.phylum = 'Phylum: Chordata'
+        self.animal_class = 'Class: Mammalia'
+        self.order = 'Order: Carnivora'
+        self.family = 'Family: Canidae'
+        self.genus = 'Genus: Vulpes'
+        self.image = 'css/images/redfox.jpg'
+        self.life = 'Life Span: 5 Years'
+        self.habitat = 'Habitat: Forests, Deserts, Mountains, and Grasslands'
+        self.location = 'Location: All over the world'
+        
