@@ -1,20 +1,10 @@
-#!/usr/bin/env python
-#
-# Copyright 2007 Google Inc.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
+'''
+Daniel O'Carroll
+July 22nd, 2014
+DPW1407
+'''
 import webapp2
+
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
@@ -25,7 +15,23 @@ class MainHandler(webapp2.RequestHandler):
         fox = Fox()
         #Create Array to Store Animals
         animals = [bear, wolf, fox]
-        self.response.write('Hello world!')
+        #Detect a request
+        if self.request.GET:
+
+            a = self.request.GET['animal']
+            #Check for the animal keyword, and populate accordingly
+            if a == "fox":
+                p.animal = fox
+                self.response.write(p.update())
+            elif a == "wolf":
+                p.animal = wolf
+                self.response.write(p.update())
+            elif a == "bear":
+                p.animal = bear
+                self.response.write(p.update())
+        else:
+            self.response.write(p.update())
+
 
 #create a class that will populate the page with html
 class Page(object):
