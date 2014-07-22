@@ -18,6 +18,11 @@ import webapp2
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
+        #Reference the Subclasses in the main so they can be pushed into an array
+        p = Page()
+        bear = Bear()
+        wolf = Wolf()
+        fox = Fox()
         self.response.write('Hello world!')
 
 #create a class that will populate the page with html
