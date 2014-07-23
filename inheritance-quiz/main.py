@@ -23,6 +23,11 @@ class Hero(object):
         return self.__health
 
 
+#create first subclass
+class Rogue(Hero):
+    def __init__(self):
+        Hero.__init__(self)
+        power = 50
 
 
 
