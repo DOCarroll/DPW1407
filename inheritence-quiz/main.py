@@ -12,5 +12,7 @@ class Hero(object):
         __health = 400
         strength = 20
 
-
-
+    #create a getter for protected health
+    @property
+    def health(self):
+        return self.health

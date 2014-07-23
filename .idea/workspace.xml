@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d78861e9-7128-41f6-a501-62d0a45bf473" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inheritence-quiz/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inheritence/main.py" afterPath="$PROJECT_DIR$/inheritence/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inheritence-quiz/main.py" afterPath="$PROJECT_DIR$/inheritence-quiz/main.py" />
     </list>
     <ignored path="DPW1407.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,7 +50,7 @@
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inheritence-quiz/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="26" selection-start="94" selection-end="94" vertical-scroll-proportion="0.20477815" vertical-offset="0" max-vertical-offset="586">
+            <state line="14" column="41" selection-start="226" selection-end="226" vertical-scroll-proportion="0.35836178" vertical-offset="0" max-vertical-offset="586">
               <folding />
             </state>
           </provider>
@@ -558,7 +556,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inheritence-quiz/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="94" selection-end="94" vertical-scroll-proportion="0.20477815" vertical-offset="0" max-vertical-offset="586">
+        <state line="14" column="41" selection-start="226" selection-end="226" vertical-scroll-proportion="0.35836178" vertical-offset="0" max-vertical-offset="360">
           <folding />
         </state>
       </provider>
