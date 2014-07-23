@@ -12,7 +12,7 @@ class MainHandler(webapp2.RequestHandler):
         self.response.write(r.health)
 
 
-#Make an Abstract Class
+#Make an Abstract class
 class Hero(object):
     def __init__(self):
         self.__health = 200
