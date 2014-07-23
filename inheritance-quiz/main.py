@@ -9,7 +9,7 @@ import webapp2
 class MainHandler(webapp2.RequestHandler):
     def get(self):
         r = Rogue()
-        self.response.write(r.health)
+        self.response.write(r.calc_stamina())
 
 
 #Make an Abstract class
@@ -21,6 +21,11 @@ class Hero(object):
     @property
     def health(self):
         return self.__health
+
+    #create first method
+    def calc_stamina(self):
+        stamina = self.health + self.strength
+        return stamina
 
 
 #create first subclass

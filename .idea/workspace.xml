@@ -28,7 +28,7 @@
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inheritance-quiz/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="421" selection-end="421" vertical-scroll-proportion="0.5859375" vertical-offset="135" max-vertical-offset="660">
+            <state line="24" column="4" selection-start="433" selection-end="433" vertical-scroll-proportion="0.5859375" vertical-offset="135" max-vertical-offset="735">
               <folding />
             </state>
           </provider>
@@ -37,7 +37,7 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fox/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="31" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="951" max-vertical-offset="2640">
+            <state line="29" column="31" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="1146" max-vertical-offset="2640">
               <folding />
             </state>
           </provider>
@@ -617,7 +617,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inheritance-quiz/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="421" selection-end="421" vertical-scroll-proportion="0.5859375" vertical-offset="135" max-vertical-offset="660">
+        <state line="24" column="4" selection-start="433" selection-end="433" vertical-scroll-proportion="0.5859375" vertical-offset="135" max-vertical-offset="735">
           <folding />
         </state>
       </provider>
