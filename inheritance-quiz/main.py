@@ -6,6 +6,7 @@ July 22nd, 2014
 
 import webapp2
 
+
 class MainHandler(webapp2.RequestHandler):
     def get(self):
         r = Rogue()
@@ -36,9 +37,35 @@ class Hero(object):
 class Rogue(Hero):
     def __init__(self):
         Hero.__init__(self)
-        power = 50
+        self.crit = 200
+        self.__agility = 250
+        self.energy = 25
+
+    @property
+    def agility(self):
+        return self.__agility
+
+    #create polymorphic method
+    def calc_stamina(self):
+        stamina = self.agility * self.crit
+        return stamina
 
 
+#create second subclass
+class Warrior(Hero):
+    def __init__(self):
+        Hero.__init__(self)
+        self.power = 200
+        self.__rage = 10
+        self.energy = 20
+
+    @property
+    def rage(self):
+        return self.__rage
+
+    def calc_stamina(self):
+        stamina = self.power - self.rage
+        return stamina
 
 
 

@@ -28,7 +28,7 @@
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inheritance-quiz/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="25" selection-start="575" selection-end="575" vertical-scroll-proportion="0.4921875" vertical-offset="246" max-vertical-offset="795">
+            <state line="41" column="24" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0234375" vertical-offset="606" max-vertical-offset="1200">
               <folding />
             </state>
           </provider>
@@ -587,7 +587,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="49" selection-start="567" selection-end="570" vertical-scroll-proportion="0.0" vertical-offset="674" max-vertical-offset="1380">
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -603,7 +603,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="56" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -617,7 +617,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inheritance-quiz/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="25" selection-start="575" selection-end="575" vertical-scroll-proportion="0.4921875" vertical-offset="246" max-vertical-offset="795">
+        <state line="41" column="24" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0234375" vertical-offset="606" max-vertical-offset="1200">
           <folding />
         </state>
       </provider>
