@@ -1,5 +1,6 @@
 import webapp2
 import urllib2
+from xml.dom import minidom
 
 
 class MainHandler(webapp2.RequestHandler):
@@ -20,9 +21,17 @@ class MainHandler(webapp2.RequestHandler):
 
             #tell object to fetch response
             data = opener.open(request)
-            print data
+
 
             #parse the info
+            xmldoc = minidom.parse(data)
+
+            titles = xmldoc.getElementsByTagName("title")
+            print titles[0].firstChild.nodeValue
+
+            image = xmldoc.getElementsByTagName('image')
+            print image
+
 
         else:
             self.response.write(f.print_out())
@@ -71,7 +80,7 @@ class FormPage(Page):
             #for each item in our __inputs array
             tot_inputs += '<input type="'+i['type']+'" name="'+i['name']+'" '
             if 'placeholder' in i:
-                tot_inputs += ' placeholder="' + i['placeholder'] + '"/>'
+                tot_inputs += ' placeholder="' + i['placeholder'] + '"'
             if 'value' in i:
                 tot_inputs += ' value="'+i['value']+'"'
             tot_inputs += ' />'
@@ -79,6 +88,7 @@ class FormPage(Page):
 
     def print_out(self):
         self._content = self._form_open + self.create_inputs() + self._close
+        return Page.print_out(self)
 
 
 app = webapp2.WSGIApplication([
