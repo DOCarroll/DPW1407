@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d78861e9-7128-41f6-a501-62d0a45bf473" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inheritance-quiz/main.py" afterPath="$PROJECT_DIR$/inheritance-quiz/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DPW1407.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,9 +26,9 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/inheritance-quiz/main.py">
+        <entry file="file://$PROJECT_DIR$/getters-settersQuiz/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="24" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0234375" vertical-offset="606" max-vertical-offset="1200">
+            <state line="21" column="0" selection-start="429" selection-end="429" vertical-scroll-proportion="0.28156996" vertical-offset="150" max-vertical-offset="1170">
               <folding />
             </state>
           </provider>
@@ -37,8 +37,19 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fox/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="31" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="1146" max-vertical-offset="2640">
+            <state line="29" column="31" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="2640">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-mvc/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1574" max-vertical-offset="2550">
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,12 +82,15 @@
         <option value="$PROJECT_DIR$/api-minidom/main.py" />
         <option value="$PROJECT_DIR$/inheritence-quiz/main.py" />
         <option value="$PROJECT_DIR$/inheritance-quiz/main.py" />
+        <option value="$PROJECT_DIR$/api-mvc/main.py" />
+        <option value="$PROJECT_DIR$/api-mvc/app.yaml" />
+        <option value="$PROJECT_DIR$/getters-settersQuiz/main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="79" />
-    <option name="y" value="22" />
+    <option name="x" value="251" />
+    <option name="y" value="98" />
     <option name="width" value="1400" />
     <option name="height" value="683" />
   </component>
@@ -106,6 +120,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -134,21 +149,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="inheritence-quiz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DPW1407" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DPW1407" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inheritance-quiz" />
+              <option name="myItemId" value="getters-settersQuiz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -190,13 +191,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="api-mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DPW1407" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DPW1407" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,6 +220,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../DPW1405" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -458,7 +473,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="79" y="22" width="1400" height="683" extended-state="0" />
+    <frame x="251" y="98" width="1400" height="683" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -469,15 +484,15 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990228" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -499,6 +514,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/inheritance-quiz/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="24" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fox/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="31" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="1146" max-vertical-offset="2640">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Classes/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="28" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
@@ -508,9 +537,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-form/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="69" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
-          <folding />
-        </state>
+        <state line="27" column="69" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-form/css/main.css">
@@ -533,11 +560,6 @@
         <state line="8" column="38" selection-start="120" selection-end="120" vertical-scroll-proportion="0.23904383" vertical-offset="0" max-vertical-offset="502" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic-python/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.15337424" vertical-offset="0" max-vertical-offset="570" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simple-form/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="18" selection-start="484" selection-end="484" vertical-scroll-proportion="0.7520325" vertical-offset="0" max-vertical-offset="738" />
@@ -545,9 +567,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-form/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="69" selection-start="690" selection-end="690" vertical-scroll-proportion="0.20576671" vertical-offset="248" max-vertical-offset="1080">
-          <folding />
-        </state>
+        <state line="27" column="69" selection-start="690" selection-end="690" vertical-scroll-proportion="0.20576671" vertical-offset="248" max-vertical-offset="1080" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-form/app.yaml">
@@ -557,21 +577,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fox/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.13368984" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.13368984" vertical-offset="0" max-vertical-offset="561" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fox/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="1" selection-start="709" selection-end="709" vertical-scroll-proportion="1.6042781" vertical-offset="0" max-vertical-offset="990">
-          <folding />
-        </state>
+        <state line="60" column="1" selection-start="709" selection-end="709" vertical-scroll-proportion="1.6042781" vertical-offset="0" max-vertical-offset="990" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api-minidom/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="95" selection-end="95" vertical-scroll-proportion="0.16042781" vertical-offset="0" max-vertical-offset="561">
+        <state line="6" column="9" selection-start="95" selection-end="95" vertical-scroll-proportion="0.16042781" vertical-offset="0" max-vertical-offset="561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inheritence/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="49" selection-start="567" selection-end="570" vertical-scroll-proportion="0.0" vertical-offset="674" max-vertical-offset="1380" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inheritence-quiz/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="384" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-minidom/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="56" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inheritance-quiz/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="24" selection-start="900" selection-end="900" vertical-scroll-proportion="0.9368601" vertical-offset="66" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-mvc/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="20" selection-start="204" selection-end="204" vertical-scroll-proportion="0.32085562" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-python/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.13089006" vertical-offset="0" max-vertical-offset="573">
           <folding />
         </state>
       </provider>
@@ -583,41 +633,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inheritence/main.py">
+    <entry file="file://$PROJECT_DIR$/api-mvc/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="49" selection-start="567" selection-end="570" vertical-scroll-proportion="0.0" vertical-offset="674" max-vertical-offset="1380">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1964" max-vertical-offset="2550">
           <folding>
-            <element signature="e#0#14#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inheritence-quiz/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="384">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-minidom/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="56" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
-          <folding>
-            <element signature="e#0#14#0" expanded="false" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fox/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="31" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="944" max-vertical-offset="2640">
+        <state line="29" column="31" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="2640">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inheritance-quiz/main.py">
+    <entry file="file://$PROJECT_DIR$/getters-settersQuiz/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="24" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0234375" vertical-offset="606" max-vertical-offset="1200">
+        <state line="21" column="0" selection-start="429" selection-end="429" vertical-scroll-proportion="0.28156996" vertical-offset="150" max-vertical-offset="1170">
           <folding />
         </state>
       </provider>
